@@ -6,5 +6,5 @@
 
 
 ### Model Credits
-[Research Paper](https://academic.oup.com/bioinformatics/article/34/17/i821/5093245)
+https://academic.oup.com/bioinformatics/article/34/17/i821/5093245
 
