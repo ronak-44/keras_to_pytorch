@@ -32,7 +32,7 @@ def build_combined_categorical(FLAGS, NUM_FILTERS=32, FILTER_LENGTH1=8, FILTER_L
 
     interactionModel = Model(inputs=[XDinput, XTinput], outputs=[predictions])
 
-    interactionModel.compile(optimizer='adam', loss='mean_squared_error', metrics=[cindex_score])
+    interactionModel.compile(optimizer='adam', loss='mean_squared_error', metrics=[metric_function])
     print(interactionModel.summary())
 
     return interactionModel
